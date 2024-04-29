@@ -12,11 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          repository: actions/checkout
-          ref: v2
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: ''
 
       - name: Cache Python dependencies
         uses: actions/cache@v2
