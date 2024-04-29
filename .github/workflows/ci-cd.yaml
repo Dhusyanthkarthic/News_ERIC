@@ -33,5 +33,5 @@ jobs:
     - name: Deploy to Heroku
       uses: dhusyanthkarthic/heroku-deploy@v3.12.12
       with:
-        heroku_api_key: HRKU-73bfa4a5-6ced-48b7-90ae-05f6c3a339aa
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'News_ERIC'
