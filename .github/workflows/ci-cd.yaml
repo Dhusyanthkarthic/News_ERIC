@@ -30,7 +30,7 @@ jobs:
     if: success()
 
     steps:
-    - name: Deploy to Heroku
+    - name: Deploy application to Heroku
       uses: dhusyanthkarthic/heroku-deploy@main
       with:
         heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
