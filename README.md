@@ -1,6 +1,7 @@
 How to Run the Application:
 Clone the Repository: 
 git clone <repository-url>
+
 Install Dependencies: 
 cd <repository-directory>
 pip install -r requirements.txt
